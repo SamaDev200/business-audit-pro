@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #050505;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(232, 121, 249, 0.2);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(232, 121, 249, 0.5);
+}
