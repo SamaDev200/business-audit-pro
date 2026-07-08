@@ -43,11 +43,11 @@ const ParticleVortex = () => {
         this.baseY = y;
         this.x = x;
         this.y = y;
-        this.size = Math.random() * 2 + 0.5;
+        this.size = Math.random() * 1.8 + 0.4;
         this.density = (Math.random() * 15) + 1;
         
-        // Cyberpunk colors: Fuchsia, Deep Purple, Cyan
-        const colors = ['#e879f9', '#d946ef', '#c026d3', '#a855f7', '#06b6d4'];
+        // Shadcn Slate/Zinc Monochrome Palette
+        const colors = ['#fafafa', '#f4f4f5', '#e4e4e7', '#d4d4d8', '#a1a1aa', '#71717a'];
         this.color = colors[Math.floor(Math.random() * colors.length)];
       }
       
@@ -108,8 +108,7 @@ const ParticleVortex = () => {
     // Initialize Particles
     const initParticles = () => {
       particles = [];
-      // Calculate how many particles to draw based on screen size (less density for cleaner look)
-      const numberOfParticles = (canvas.width * canvas.height) / 4000; 
+      const numberOfParticles = (canvas.width * canvas.height) / 4500; 
       for (let i = 0; i < numberOfParticles; i++) {
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
@@ -124,7 +123,7 @@ const ParticleVortex = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
       // Global fade in/out logic
-      if (mouse.isActive && globalOpacity < 0.8) {
+      if (mouse.isActive && globalOpacity < 0.6) {
         globalOpacity += 0.05;
       } else if (!mouse.isActive && globalOpacity > 0) {
         globalOpacity -= 0.02;
