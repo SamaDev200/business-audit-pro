@@ -85,11 +85,11 @@ function App() {
                 <img 
                   src="/profile_nobg.png" 
                   alt="Samadev"
-                  className="w-full h-full object-contain object-top pt-3 scale-[1.25] relative z-10"
+                  className="w-full h-full object-cover object-top scale-[1.1] translate-y-0.5 relative z-10"
                 />
               </div>
               <div className="flex items-center gap-2 mb-1">
-                <h2 className="text-xl font-semibold tracking-tight text-zinc-100">Samandar</h2>
+                <h2 className="text-xl font-semibold tracking-tight text-zinc-100">Samandar Qurbonov</h2>
                 <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-zinc-900 text-zinc-400 border border-zinc-800">Pro</span>
               </div>
               <p className="text-xs text-zinc-500 font-mono tracking-wider">@Sama_Dev</p>
@@ -170,7 +170,7 @@ function App() {
           {/* Footer Section */}
           <div className="border-t border-zinc-800/60 mt-8 pt-6 flex items-center justify-between text-xs text-zinc-500 font-mono">
             <span>© 2026 SamaDev</span>
-            <span>Powered by Antigravity</span>
+            <span>Vibe coder</span>
           </div>
         </div>
 
