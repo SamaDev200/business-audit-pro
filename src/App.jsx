@@ -113,19 +113,19 @@ function App() {
           <div className="border-t border-zinc-800/60 pt-6 space-y-3.5">
             <div className="flex items-center gap-3 text-sm text-zinc-400">
               <div className="p-1.5 rounded-md bg-zinc-950 border border-zinc-800">
-                <Laptop size={14} className="text-zinc-500" />
+                <Laptop size={14} className="text-sky-400" />
               </div>
               <span>Frontend Arxitektor</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-zinc-400">
               <div className="p-1.5 rounded-md bg-zinc-950 border border-zinc-800">
-                <Zap size={14} className="text-zinc-500" />
+                <Zap size={14} className="text-amber-400" />
               </div>
               <span>Vibe Coder</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-zinc-400">
               <div className="p-1.5 rounded-md bg-zinc-950 border border-zinc-800">
-                <Bot size={14} className="text-zinc-500" />
+                <Bot size={14} className="text-emerald-400" />
               </div>
               <span>AI & Avtomatlashtirish</span>
             </div>
