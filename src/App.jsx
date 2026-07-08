@@ -91,7 +91,7 @@ function App() {
                 <img 
                   src="/profile_nobg.png" 
                   alt="Samadev"
-                  className="w-full h-full object-cover object-top scale-[1.1] translate-y-0.5 relative z-10"
+                  className="w-full h-full object-cover object-top scale-[1.35] translate-y-1.5 relative z-10"
                 />
               </div>
               <div className="flex items-center gap-2 mb-1">
